@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header-section{
+    background-color: cadetblue;
+    height: 70px;
+    width: 1263px;
+}
+#main-section{
+    background-color:rgb(255, 255, 218);
+    height: 90px;
+    width: 1263px;
+}
+.container{
+    display: grid;
+    height: 1200px;
+    width:auto;
+    background-color: azure;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    grid-row-gap: 10px;
+    grid-column-gap:10px;
+}
+
+.task{
+    margin: 35px;
+    background-color: lightblue;
+
+}
